@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="#">
+    <a href="https://comps-beryl.vercel.app">
       Demo
     </a>
   </h3>
@@ -42,3 +42,4 @@ With this project I've learned/improved:
 
 <br>
 Date: 7/2023
+s
