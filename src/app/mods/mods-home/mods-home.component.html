@@ -1,4 +1,13 @@
 <app-divider>
   Modal Component
 </app-divider>
-<app-modal></app-modal>
+<button (click)="onClick()">Show Modal</button>
+<app-modal (close)="onClick()" *ngIf="modalOpen">
+  <div modalTitle>REUSABLE Title</div>
+  <p>
+    REUSABLE content for the modal window should go right here!
+  </p>
+  <ng-container modalFooter>
+    <button class="ui button" (click)="onClick()">Close Me!</button>
+  </ng-container>
+</app-modal>
