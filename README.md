@@ -42,4 +42,3 @@ With this project I've learned/improved:
 
 <br>
 Date: 7/2023
-s
